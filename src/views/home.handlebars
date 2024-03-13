@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="/public/home.css" />
+
+<div>
+  <h1 id="room">{{title}}</h1>
+  <ul id="messages">
+    {{#each messages}}
+      <div>{{this}}</div>
+    {{/each}}
+  </ul>
+  <div class="center">
+    <input id="messageBox" type="text" placeholder="Message" />
+    <button id="submit"></button>
+  </div>
+</div>
+
+<script src="https://cdn.socket.io/4.7.4/socket.io.min.js"></script>
+<script src="/public/home.js"></script>

@@ -1,0 +1,11 @@
+.center {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#submit {
+  width: 25px;
+  height: 25px;
+}
